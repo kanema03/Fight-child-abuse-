@@ -1,7 +1,35 @@
 /* CSS Document */
 *{
+   margin: 0;
+   padding: 0;
 	box-sizing: border-box;
 }
+@media only screen and (max-width: 400px) {
+   body {
+     background-color: #F09A9D; /* Red */
+   }
+ }
+ 
+ /* Tablet Styles */
+ @media only screen and (min-width: 401px) and (max-width: 960px) {
+   .card,
+   .feature-1,
+   .feature-2,
+   .feature-3 {
+     width: 50%;
+   }
+ }
+ 
+ /* Desktop Styles */
+ @media only screen and (min-width: 961px) {
+   .page {
+     width: 960px;
+     margin: 0 auto;
+   }
+   .right {
+     width: 100%;
+   }
+ }
 
 .topnav {
 	overflow: hidden;
