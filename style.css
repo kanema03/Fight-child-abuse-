@@ -19,8 +19,14 @@
      width: 50%;
    }
  }
+ img {
+   height: auto;
+   /* Make sure images are scaled correctly. */
+   max-width: 100%;
+   /* Adhere to container width. */
  
  /* Desktop Styles */
+ }
  @media only screen and (min-width: 961px) {
    .page {
      width: 960px;
